@@ -18,7 +18,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+1. Define @merchantId and @apiKey
+
+2. Create an instance of Pwinty::Client.new(@merchantId, @apiKey)
+
+3. Run methods on it like get_orders
 
 ## Contributing
 
