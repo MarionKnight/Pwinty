@@ -1,6 +1,6 @@
 require 'faraday_middleware'
 require 'faraday'
-require 'pwinty/raise_http_exception'
+require_relative 'raise_http_exception'
 module Pwinty
   class Client
     module Connection
